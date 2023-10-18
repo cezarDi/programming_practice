@@ -18,7 +18,8 @@ int main() {
 	long double square = (long double)x * x + y * y;
 	if (square >= r * r && square <= R * R) {
 		std::cout << "The point in the ring";
-	} else {
+	} 
+	else {
 		std::cout << "The point outside the ring";
 	}
 	std::cout << "\n";

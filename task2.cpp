@@ -15,13 +15,16 @@ int main() {
 		if (b == 0) {
 			if (c == 0) {
 				std::cout << "X in R";
-			} else {
+			} 
+			else {
 				std::cout << "No solution";
 			}
-		} else {
+		} 
+		else {
 			std::cout << "X = " << -c / b;
 		}
-	} else {
+	} 
+	else {
 		double D;
 		D = b * b - 4 * a * c;
 		if (D < 0) {
